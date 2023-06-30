@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swiper</title>
+    <link rel="stylesheet" href="css/style3.css">
+    
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <nav class="header__menu menu">
+                <ul class="menu__list">
+                    <li><a href="#" class="menu__link">1 раздел</a></li>
+                    <li><a href="#" class="menu__link">2 раздел</a></li>
+                    <li><a href="#" class="menu__link">3 раздел</a></li>
+                    <li><a href="#" class="menu__link">4 раздел</a></li>
+                </ul>
+                <div class="menu__burger">
+                    <span></span>
+                </div>
+            </nav>
+            
+        </header>
+        <main class="slides">
+            <div class="slides__wrapper">
+                <div class="slide">
+                    <div class="slide__content">
+                        <h2 class="slide__title">Первый слайд</h2>
+                        <p class="paragraph">Пирамида Хеопса высотой 147 метров</p>
+                    </div>   
+                    <div class="slide__body">
+                        <div class="slide__image">
+                            <img src="img/2022-07-25.jpg" alt="Pyramide">
+                        </div>
+                   </div>
+                </div>
+                <div class="slide slide1">
+                    
+                    <div class="slide__content ">
+                        <h2>Второй слайд</h2>
+                        <p>
+                           Пирами́да Хео́пса (араб. هرم خوفو), Великая пирамида Гизы — крупнейшая из египетских пирамид, памятник архитектурного искусства Древнего Египта; единственное из «Семи чудес света», сохранившееся до наших дней, и самое древнее из них: её возраст оценивается примерно в 4500 лет.
+                           Расположена на плато Гиза в окрестностях египетской столицы и дельты Нила, на его левом берегу; самая северная из трёх больших пирамид плато, носящих имена трёх фараонов Древнего царства из четвёртой династии, предполагаемых заказчиков строительства, — Хеопса (Хуфу), Хефрена (Хафры) и Микерина (Менкауры). 
+                        </p>
+                   </div>
+                </div>
+                <div class="slide"> 
+                    <div class="slide__content">
+                        
+                    </div>
+                    <div class="slide__body">
+                        <div class="slide__image">
+                           <video controls preload="metadata" muted autoplay src="img/Испанский парамотопланерист запечатлел египетские пирамиды с высоты птичьего полёта.mp4"></video> 
+                        </div>
+                    </div>
+                </div>
+                <div class="slide swiper">
+                    <div class="swiper__title">Четвертый слайд (слайдер)</div>
+                    <div class="swiper__wrapper">
+                        
+                        <div class="swiper__slide">
+                            <div class="swiper__image">
+                                <img src="img/pyramide.jfif" alt="">
+                            </div>
+                        </div>
+                        <div class="swiper__slide">
+                            <div class="swiper__image">
+                                <img src="img/pyramide2.jfif" alt="">
+                            </div>  
+                        </div>
+                        <div class="swiper__slide">
+                            <div class="swiper__image">
+                                <img src="img/pyramide3.jfif" alt="">
+                            </div>  
+                        </div>
+                    </div>
+                    <div class="swiper__prev"></div>
+                    <div class="swiper__next"></div>
+                </div>
+            </div>
+            <div class="slides__prev"></div>
+            <div class="slides__next"></div>
+            <div class="slides__pagination">
+                <div class="slides__bullet"></div>
+                <div class="slides__bullet"></div>
+                <div class="slides__bullet"></div>
+            </div>
+            <div class="slides__scrollbar">
+                <div class="slides__dragscroll"></div>
+            </div>
+        </main>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+    
+</body>
+</html>
